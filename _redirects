@@ -1,0 +1,6 @@
+# Redirect domain aliases to primary domain
+https://www.panseit.gr/* https://www.panseit.com/:splat 301!
+https://panseit.gr/* https://www.panseit.com/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://panseit.netlify.com/* https://www.panseit.com/:splat 301!
