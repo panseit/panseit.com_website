@@ -23,6 +23,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "Why are we not online yet?Prolly busy :)";
+    document.getElementById("countdown").innerHTML = "I am working hard to be online soon";
   }
 }, 1000);
