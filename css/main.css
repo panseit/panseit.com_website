@@ -2,6 +2,9 @@ body {
      /* Random greyscale blurred background image from picsum.photos */
      background-image: url('https://picsum.photos/g/1920/1080/?random');
 
+     /* Blur the image */
+     filter: blur(3px);
+
      /* Image for local tests */
      /*background: url('../assets/images/bg.jpg'); */
      background-position: center ;
